@@ -1,0 +1,231 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #376d64;
+    background-image: url("media/pattern-1.png");
+    background-attachment: fixed;
+    background-size: 800px;    
+}
+
+.header-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    background-color: #376d64;
+    display: flex;
+    padding: 20px 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 5px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-link {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f15a24;
+    text-decoration: none;
+}
+
+a:active {
+    color: #f15a24;
+    text-decoration: none;
+}
+
+iframe {
+    border-radius: 30px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.fork {
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px 0px 80px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button-up {
+    background-color: #f15a24;
+    border-radius: 30px 30px 0px 0px;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 35px;
+    max-width: 450px;
+    border: none;
+}
+
+.fork-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 20px;
+    max-width: 450px;
+    padding: 50px;
+    background-color: #376d64;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.fork-body-head {
+    color: white;
+    font-size: 48px;
+    font-weight: 800; 
+}
+
+.quoteby {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: right;
+    width: 100%;
+}
+
+.button-down {
+    background-color: #f15a24;
+    border-radius: 0px 0px 30px 30px;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 35px;
+    max-width: 450px;
+    border: none;
+}
+
+.line {
+    margin: 15px;
+    max-width: 1px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #f15a24;
+    height: 100px;
+}
+
+
+
+.needs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    background-color: #376d64;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top-color: #f15a24;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-bottom-color: #f15a24;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.needs-head {
+    color: white; 
+    font-size: 36px; 
+    font-weight: 700;
+    text-align: center;
+}
+
+.needs-text {
+    color: white; 
+    font-size: 20px; 
+    font-weight: 400;
+    text-align: center;
+    max-width: 450px;
+}
+
+.needs-items {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    justify-content: center; 
+}
+
+.needs-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+}
+
+.needs-item-img {
+    max-width: 60px;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 100%;
+    background-color: #f15a24;
+}
+
+.needs-item-head {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.needs-item-text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+.footer {
+    background-color: #376d64;
+    display: flex;
+    padding: 20px 80px;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 5px;
+}
+
